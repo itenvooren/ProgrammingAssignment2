@@ -50,8 +50,6 @@ cacheSolve <- function(x, ...) {
     inverted_matrix
 }
 
-james was here
-
 
 berry<-matrix(c(2,0,0,1), nrow = 2, ncol=2)
 berry
