@@ -23,7 +23,7 @@ makeCacheMatrix <- function(matrix = matrix()) {  # Create founction that take o
     getinvert <- function() inverted_matrix     # getinvert return the invert of the Matrix
     
     list(setmatrix = setmatrix, getmatrix = getmatrix,    # create the list with how to get/set the matrix, 
-         getinvert = getinvert, setinvert = setinvert)    #and get/set inverted_matrix
+         getinvert = getinvert, setinvert = setinvert)    # and get/set inverted_matrix
 }
 
 
