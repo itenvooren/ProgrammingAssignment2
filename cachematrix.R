@@ -13,7 +13,7 @@ makeCacheMatrix <- function(matrix = matrix()) {  # Create founction that take o
         matrix <<- newmatrix               # and errased the old value for "invert" if it had one
         inverted_matrix <<- NULL
     }
-    getmatrix <- function() {             # Return the matrix we were provided.
+    getmatrix <- function() {              # Return the matrix we were provided.
         matrix
     }
     
